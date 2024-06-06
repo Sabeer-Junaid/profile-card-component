@@ -31,3 +31,17 @@ body {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
+
+.pfp {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 4rem;
+  border: white solid 5px;
+  top: -5.5rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
