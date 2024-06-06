@@ -5,35 +5,35 @@
 }
 
 body {
-  place-content: center;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(images/background.png);
+  background-color: blueviolet;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
-.upcard {
-  height: 170px;
-  width: 325px;
-  background-color: blue;
-  border-radius: 1rem;
-  background-image: url(images/bg-pattern-card.svg);
-}
-
-.bottomcard {
+.main-card {
   background-color: white;
-  height: 250px;
+  height: 350px;
   width: 325px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -1rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-radius: 1rem;
+}
+
+.pattern-card {
+  margin-top: -13.9rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  width: 325px;
 }
 
 .pfp {
-  position: absolute;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -44,4 +44,5 @@ body {
   bottom: 0;
   right: 0;
   margin: auto;
+  position: absolute;
 }
