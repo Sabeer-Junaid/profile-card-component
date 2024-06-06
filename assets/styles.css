@@ -9,8 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(images/background.png);
-  background-color: blueviolet;
+  background-color: aqua;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -18,7 +17,7 @@ body {
 
 .main-card {
   background-color: white;
-  height: 350px;
+  height: 390px;
   width: 325px;
   display: flex;
   justify-content: center;
@@ -27,7 +26,7 @@ body {
 }
 
 .pattern-card {
-  margin-top: -13.9rem;
+  margin-top: -16.5rem;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
   width: 325px;
@@ -39,10 +38,6 @@ body {
   align-items: center;
   border-radius: 4rem;
   border: white solid 5px;
-  top: -5.5rem;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
   position: absolute;
+  margin-top: -7.8rem;
 }
