@@ -6,7 +6,7 @@
 
 body {
   place-content: center;
-  min-height: 100vh;
+  height: 100vh;
   background-image: url(images/background.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
 
 .upcard {
   height: 170px;
-  width: 350px;
+  width: 325px;
   background-color: blue;
   border-radius: 1rem;
   background-image: url(images/bg-pattern-card.svg);
@@ -23,7 +23,7 @@ body {
 .bottomcard {
   background-color: white;
   height: 250px;
-  width: 350px;
+  width: 325px;
   display: flex;
   justify-content: center;
   align-items: center;
