@@ -18,8 +18,8 @@ This is a solution to the Blog preview card challenge on Frontend Mentor. Fronte
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/Sabeer-Junaid/profile-card-component
+- Live Site URL: https://sabeer-junaid.github.io/profile-card-component
 
 ### Built with
 
