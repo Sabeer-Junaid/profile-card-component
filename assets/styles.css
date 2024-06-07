@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --greyish: hsl(0, 0%, 59%);
+  --darkgreyish: hsl(227, 10%, 46%);
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+
+  /* Neutral */
+  --dark-gray: hsl(0, 0%, 59%);
+}
 body {
   height: 100vh;
   display: flex;
@@ -13,6 +22,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  background-color: var(--dark-cyan);
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
 }
 
 .main-card {
@@ -29,7 +41,7 @@ body {
   margin-top: -16.5rem;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
-  width: 325px;
+  width: 327px;
 }
 
 .pfp {
@@ -40,4 +52,73 @@ body {
   border: white solid 5px;
   position: absolute;
   margin-top: -7.8rem;
+}
+
+.name {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  margin-top: 4.5rem;
+  margin-left: -2.5rem;
+  font-size: 18px;
+}
+
+.age {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  position: absolute;
+  margin-left: 7rem;
+  margin-top: 4.5rem;
+  color: var(--greyish);
+  font-size: 18px;
+}
+
+.country {
+  position: absolute;
+  margin-top: 9rem;
+  font-size: 14px;
+  font-family: "Kumbh Sans", sans-serif;
+  color: var(--greyish);
+}
+
+.stats {
+  position: absolute;
+  margin-top: 12rem;
+  font-size: 0; /* remove font size to avoid extra space */
+}
+
+.stats p {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 26px;
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 5rem;
+}
+
+.stats-title {
+  position: absolute;
+  margin-top: 12rem;
+  font-size: 0; /* remove font size to avoid extra space */
+}
+
+.stats-title p {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 18px;
+  font-size: 10px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  margin-top: 8rem;
+  color: var(--greyish);
+  margin-left: 2px;
+  padding: 1rem;
+}
+
+.watermark {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 1rem;
 }
